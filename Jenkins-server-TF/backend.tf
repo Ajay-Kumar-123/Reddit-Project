@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket         = "reddit-demo-bucket"
-    region         = "ap-south-1"
+    region         = "ap-south-2"
     key            = "Reddit-Project/Jenkins-Server-TF/terraform.tfstate"
     dynamodb_table = "Lock-Files"
     encrypt        = true
